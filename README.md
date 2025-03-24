@@ -22,6 +22,7 @@ pip install image_processing
 ```
 
 ## Author
+Karina Kato
 Tiago
 
 ## License
