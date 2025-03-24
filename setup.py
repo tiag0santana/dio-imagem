@@ -7,15 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="image_procvessing",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Tiago",
+    description="Image Processing Package using Skimage",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/tiag0santana/dio-imagem",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.5',
 )
